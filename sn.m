@@ -12,14 +12,14 @@ function x=sn(xx)
     i1=i1+1;
     x(i1)=sum/j;
     sum=0.0;
-    j=0
+    j=0;
    endfor
 %
   for i=2:nn(2)
-    for k=1:n-1+1
-      if (k<=nn(1)
+    for k=1:nn(2)-i+1
+      if (k<=nn(1))
         sum=sum+xx(nn(1) - k + 1, k + i - 1);
-        j=j+1
+        j=j+1;
       endif
     endfor
     i1=i1+1;
