@@ -30,6 +30,7 @@ Singular_Spectrum_Analysis-by-GNU Octave
   734 for j=1:n;for i=1:m-n+1;x(i,j)=c(i+j-1);endfor;endfor;
   [u s v]=svd(x);
 </pre>
+### mathematica code
 <pre>
   sn[xx_] := Module[{i, j, k, n, n1, x, sum}, x = {};
   {n1, n} = Dimensions[xx];
