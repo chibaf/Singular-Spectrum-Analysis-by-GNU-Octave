@@ -27,6 +27,7 @@ Singular_Spectrum_Analysis-by-GNU Octave
   698 m=size(c)(2)
   699 help floor
   701 n=floor(m/2)
+  clearvars x
   734 for j=1:n;for i=1:m-n+1;x(i,j)=c(i+j-1);endfor;endfor;
   [u s v]=svd(x);
 </pre>
