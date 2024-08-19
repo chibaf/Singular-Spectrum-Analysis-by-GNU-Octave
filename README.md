@@ -39,7 +39,7 @@ Singular_Spectrum_Analysis-by-GNU Octave
   Do[Do[If[k <= n, sum = sum + xx[[i - k + 1, k]]; j = j + 1], {k, i}];
    x = Append[x, sum/j]; sum = 0; j = 0, {i, n1}];
   j = 0; sum = 0;
-       Do[
+  Do[
    Do[If[k <= n1, sum = sum + xx[[n1 - k + 1, k + i - 1]]; 
      j = j + 1], {k, n - i + 1}];
    x = Append[x, sum/j]; sum = 0; j = 0, {i, 2, n}];
