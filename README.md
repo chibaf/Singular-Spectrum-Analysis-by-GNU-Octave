@@ -45,3 +45,10 @@ Singular_Spectrum_Analysis-by-GNU Octave
    x = Append[x, sum/j]; sum = 0; j = 0, {i, 2, n}];
   Return[x]]
 </pre>
+
+
+## referemces:
+
+chibaf/Singular-Spectrum-Analysis-with-Mathematica: Singular Spectrum Analysis with Mathematica
+
+https://github.com/chibaf/Singular-Spectrum-Analysis-with-Mathematica
