@@ -1,6 +1,8 @@
 # Singular-Spectrum-Analysis-by-GNU-Octave
 Singular_Spectrum_Analysis-by-GNU Octave
 
+## make test data
+
 <pre>
   678 len=200
   679 nn=1:200;
@@ -19,3 +21,4 @@ Singular_Spectrum_Analysis-by-GNU Octave
 </pre>
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/4f0cf222-fd34-4ccb-a3f9-f54e6915557a">
 
+## decomposition of curve by singular spectral analysis
