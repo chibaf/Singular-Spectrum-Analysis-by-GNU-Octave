@@ -22,3 +22,9 @@ Singular_Spectrum_Analysis-by-GNU Octave
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/4f0cf222-fd34-4ccb-a3f9-f54e6915557a">
 
 ## decomposition of curve by singular spectral analysis
+
+<pre>
+  698 m=size(c)(2)
+  699 help floor
+  701 n=floor(m/2)
+</pre>
