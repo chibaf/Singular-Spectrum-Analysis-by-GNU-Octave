@@ -81,6 +81,11 @@ https://github.com/chibaf/Singular-Spectrum-Analysis-by-GNU-Octave/blob/main/sn.
   ss=sn(kx);
   plot(ss);
 </pre>
+where kron means Kroneker product. 
+
+Function Reference: kron
+https://octave.sourceforge.io/octave/function/kron.html
+
 
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/852cda73-dcf8-41fe-9b6b-afce2357a30b">
 
