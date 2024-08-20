@@ -33,7 +33,7 @@ Singular_Spectrum_Analysis-by-GNU Octave
 
 ## divide a signal to sevral elements
 
-### mathematica code
+### sn: mathematica code
 <pre>
   sn[xx_] := Module[{i, j, k, n, n1, x, sum}, x = {};
   {n1, n} = Dimensions[xx];
@@ -48,7 +48,7 @@ Singular_Spectrum_Analysis-by-GNU Octave
   Return[x]]
 </pre>
 
-### octave code
+### sn.m octave code
 
 https://github.com/chibaf/Singular-Spectrum-Analysis-by-GNU-Octave/blob/main/sn.m
 
