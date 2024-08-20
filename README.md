@@ -31,6 +31,20 @@ Singular_Spectrum_Analysis-by-GNU Octave
   734 for j=1:n;for i=1:m-n+1;x(i,j)=c(i+j-1);endfor;endfor;
 </pre>
 
+### genmat.m: octave code
+
+https://github.com/chibaf/Singular-Spectrum-Analysis-by-GNU-Octave/blob/main/genmat.m
+
+<pre>
+  function x=genmat(c)
+  m=size(c)(2);
+  n=floor(m/2);
+  clearvars x;
+  for j=1:n;for i=1:m-n+1;x(i,j)=c(i+j-1);endfor;endfor;
+endfunction
+</pre>
+
+
 ## divide a signal to sevral elements
 
 ### sn: mathematica code
