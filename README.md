@@ -66,6 +66,13 @@ Singular_Spectrum_Analysis-by-GNU Octave
 
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/852cda73-dcf8-41fe-9b6b-afce2357a30b">
 
+<pre>
+  kx=s(1,1)*kron(tu(1,:),tv(1,:)')+s(2,2)*kron(tu(2,:),tv(2,:)');
+  ss=sn(kx);
+  plot(ss);
+</pre>
+
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/3c4f9409-da83-43c1-b2d0-5ed9e3434ced">
 
 
 ## referemces:
