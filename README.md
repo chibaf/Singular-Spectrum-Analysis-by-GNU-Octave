@@ -1,4 +1,7 @@
 # Singular-Spectrum-Analysis-by-GNU-Octave
+
+SSA = Singular Spectrum Analysis
+
 Singular_Spectrum_Analysis-by-GNU Octave
 
 ## make test data
@@ -110,6 +113,10 @@ https://octave.sourceforge.io/octave/function/kron.html
 Singular Spectrum Analysis for Time Series | SpringerLink
 
 https://link.springer.com/book/10.1007/978-3-642-34913-3
+
+Introducing SSA for Time Series Decomposition
+
+https://www.kaggle.com/code/jdarcy/introducing-ssa-for-time-series-decomposition
 
 chibaf/Singular-Spectrum-Analysis-with-Mathematica: Singular Spectrum Analysis with Mathematica
 
