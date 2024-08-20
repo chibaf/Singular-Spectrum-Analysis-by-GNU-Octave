@@ -88,6 +88,10 @@ https://github.com/chibaf/Singular-Spectrum-Analysis-by-GNU-Octave/blob/main/sn.
 
 ## referemces:
 
+Singular Spectrum Analysis for Time Series | SpringerLink
+
+https://link.springer.com/book/10.1007/978-3-642-34913-3
+
 chibaf/Singular-Spectrum-Analysis-with-Mathematica: Singular Spectrum Analysis with Mathematica
 
 https://github.com/chibaf/Singular-Spectrum-Analysis-with-Mathematica
