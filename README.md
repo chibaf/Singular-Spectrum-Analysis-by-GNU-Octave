@@ -48,6 +48,10 @@ Singular_Spectrum_Analysis-by-GNU Octave
   Return[x]]
 </pre>
 
+### octave code
+
+
+
 ### Singular value decomposition
 
 <pre>
