@@ -50,7 +50,7 @@ Singular_Spectrum_Analysis-by-GNU Octave
 
 ### octave code
 
-
+https://github.com/chibaf/Singular-Spectrum-Analysis-by-GNU-Octave/blob/main/sn.m
 
 ### Singular value decomposition
 
