@@ -29,8 +29,10 @@ Singular_Spectrum_Analysis-by-GNU Octave
   701 n=floor(m/2)
   clearvars x
   734 for j=1:n;for i=1:m-n+1;x(i,j)=c(i+j-1);endfor;endfor;
-  [u s v]=svd(x);
 </pre>
+
+## divide a signal to sevral elements
+
 ### mathematica code
 <pre>
   sn[xx_] := Module[{i, j, k, n, n1, x, sum}, x = {};
@@ -45,6 +47,25 @@ Singular_Spectrum_Analysis-by-GNU Octave
    x = Append[x, sum/j]; sum = 0; j = 0, {i, 2, n}];
   Return[x]]
 </pre>
+
+### Singular value decomposition
+
+<pre>
+  [u s v]=svd(x);
+</pre>
+
+## make a matrix from SVD result
+
+<pre>
+  tu=u';
+  tv=v';
+  kx=s(1,1)*kron(tu(1,:),tv(1,:)');
+  ss=sn(kx);
+  plot(ss);
+</pre>
+
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/852cda73-dcf8-41fe-9b6b-afce2357a30b">
+
 
 
 ## referemces:
