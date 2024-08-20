@@ -36,7 +36,7 @@ Singular_Spectrum_Analysis-by-GNU Octave
 https://github.com/chibaf/Singular-Spectrum-Analysis-by-GNU-Octave/blob/main/genmat.m
 
 <pre>
-  function x=genmat(c)
+function x=genmat(c)
   m=size(c)(2);
   n=floor(m/2);
   clearvars x;
