@@ -50,7 +50,7 @@ endfunction
 
 ## divide a signal to sevral elements
 
-### sn: mathematica code
+### sn: Mathematica code
 <pre>
   sn[xx_] := Module[{i, j, k, n, n1, x, sum}, x = {};
   {n1, n} = Dimensions[xx];
