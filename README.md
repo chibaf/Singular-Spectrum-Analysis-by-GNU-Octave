@@ -75,7 +75,7 @@ https://github.com/chibaf/Singular-Spectrum-Analysis-by-GNU-Octave/blob/main/sn.
   [u s v]=svd(x);
 </pre>
 
-## make a matrix from SVD result
+## make signals from SVD result
 
 <pre>
   tu=u';
